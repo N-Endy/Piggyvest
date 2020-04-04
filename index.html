@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piggyvest | Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header id="header">
+            <a href="https://www.piggybank.com">
+                <img src="./images/IMG-20200401-WA0016.jpg" alt="piggybank">
+            </a>
+        </header>
+
+        <div id="Container">
+            <div id="head-title">
+                <h1>Create a Secure Account</h1>
+                <p>Welcome to the future of Savings & Investments</p>
+            </div>
+            
+
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label><br>
+                    <input class="text-field" type="text" name="fullname" id="" placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                    <label for="">Email Address</label><br>
+                    <input class="text-field" type="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <label for="">Phone Number</label><br>
+                    <input class="text-field" type="tel" name="phone" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="">Password</label><br>
+                    <input class="text-field" type="password" name="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="">Referrer Phone or Promo Code (Optional)</label><br>
+                    <input class="text-field" type="text" name="promocode" placeholder="Referrer or Promo Code">
+                </div>
+                <div class="form-group">
+                    <label for="">How Did You Hear About Us? (Optional)</label><br>
+                    <select name="hear-from" id="dropdown" name="role" class="text-field" required="" size="">
+                        <option disabled="" selected="" value="">Click To Select</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="twitter">Twitter</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="friend-family">Friend/Family/Coworker Referral</option>
+                        <option value="google-search">Google search</option>
+                        <option value="google-playstore">Google playstore</option>
+                        <option value="online-blog">Online Blog</option>
+                        <option value="local-newspaper">Local Newspaper</option>
+                        <option value="event">At an event</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button id="submit" type="submit">
+                        Create Account
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <a class="bottom" href="http://www.piggybank.com/login">
+            <p class="bottom">Already have an account? Log in</p>
+        </a>
+    </main>
+</body>
+</html>
